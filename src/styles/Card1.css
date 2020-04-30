@@ -1,12 +1,10 @@
 .card1{
+    margin-top: 15px;
     border-top: 2px solid lightseagreen;
     background-color: white;
     box-shadow: 2px 5px whitesmoke; 
     height: 255px;
     width: 300px;
-    margin-top: 150px;
-    margin-right: 30px;
-    
 }
 .card1 img{
     float: right;
@@ -14,3 +12,25 @@
     margin-right: 25px;
 
 }
+
+@media (min-width:768px){
+    .card1{
+        border-top: 2px solid lightseagreen;
+        background-color: white;
+        box-shadow: 2px 5px whitesmoke; 
+        height: 255px;
+        width: 300px;
+        margin-top: 150px;
+        margin-right: 30px;
+        
+    }
+    .card1 img{
+        float: right;
+        margin-top: 35px;
+        margin-right: 25px;
+    
+    }
+  }
+
+
+
