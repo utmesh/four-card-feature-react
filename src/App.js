@@ -26,7 +26,7 @@ function App() {
       <Header text1={line1} text2={line2} text3={line3} />
       <div className='Body'>
         <Card1 title='Supervisor' info={info1} name={Supervisor} />
-        <div className='vertical'>
+        <div className='Vertical'>
           <Card2 title='Team Builder' info={info2} name={TeamBuilder} />
           <Card2a title1='Karma' info1={info3} name1={karma} />
         </div>

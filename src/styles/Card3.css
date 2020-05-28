@@ -2,22 +2,23 @@
     margin-top: 5px;
     border-top: 2px solid blue;
     box-shadow: 2px 5px whitesmoke;
-    height: 255px;
-    width: 300px;
+    height: 100%;
+    width: 100%;
 }
 .card3 img{
     float: right;
     margin-top: 35px;
     margin-right: 25px;
-
+    margin-bottom: 5px;
+   
 }
 
 @media (min-width:768px){
     .card3{
         border-top: 2px solid blue;
         box-shadow: 2px 5px whitesmoke;
-        height: 255px;
-        width: 300px;
+        height: 100%;
+        width: 25%;
         margin-top: 150px;
     
        
@@ -27,6 +28,7 @@
         float: right;
         margin-top: 35px;
         margin-right: 25px;
+        margin-bottom: 25px;
     
     }
   }

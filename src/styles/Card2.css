@@ -6,12 +6,13 @@
 }
 .card2a{
     border-top: 2px solid darkorange;
-    position: relative;
+    /*position: relative;*/
 }
 .card2, .card2a{
     box-shadow: 2px 5px whitesmoke;
-    height: 255px;
-    width: 300px;
+    height: 220px;
+    width: 100%;
+    
 }
 .card2 img, .card2a img{
     float: right;
@@ -27,14 +28,14 @@
     }
     .card2a{
         border-top: 2px solid darkorange;
-        position: relative;
+        /*position: relative;*/
         top: 25px;
     }
     .card2, .card2a{
         box-shadow: 2px 5px whitesmoke;
-        height: 255px;
-        width: 300px;
-        margin-right: 30px;
+        height: 60%;
+        width: 95%;
+        margin-right: 20px;
     }
     
     .card2 img, .card2a img{
